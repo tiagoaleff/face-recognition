@@ -9,13 +9,12 @@ class NovoIndividuo(QDialog):
     def __init__(self, show=False):
         super(NovoIndividuo, self).__init__()
         self.novoIndividuoUi = loadUi('adicionarnovoindividuo.ui', self)
-        #self.localizarFotoBotton.clicked.connect(lambda: self.openWindowsOpenFile())
 
         openFile = QAction("&Open File", self)
         openFile.setShortcut("Ctrl+o")
         openFile.setStatusTip('Open File')
         openFile.triggered.connect(self.openWindowsOpenFile)
-        self.localizarFotoBotton.clicked(openFile)
+        #self.localizarFotoBotton.clicked(openFile)
         #self.novoIndividuoUi.activ(openFile)
 
         self.localizarFotoBotton.addAction(openFile)
