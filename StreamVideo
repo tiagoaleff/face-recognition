@@ -1,0 +1,6 @@
+import cv2 as cv
+
+
+#class StreamVideo():
+
+#    def __init__(self):

@@ -22,7 +22,6 @@ class ReconhecedorLbp(QThread):
             frameCinza = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
             facesDetectadas = self.detectorFace.detectMultiScale(frameCinza, scaleFactor=1.1, minNeighbors=10,
                                                                  minSize=(30, 30))
-
             for (x, y, a, l) in facesDetectadas:
                 cv.rectangle(frame, (x, y), (x + l, y + a), (0, 0, 255), 2)
                 frameFaceCinza = cv.resize(frameCinza[y: y + a, x: x + l], (self.largura, self.altura))
