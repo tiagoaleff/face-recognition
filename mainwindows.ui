@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1036</width>
-    <height>611</height>
+    <width>1018</width>
+    <height>706</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,158 +18,148 @@
     <normaloff>img/profile.jpg</normaloff>img/profile.jpg</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="2">
-     <spacer name="horizontalSpacer">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>40</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="0" column="3">
-     <widget class="QLabel" name="label_2">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Perfil</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="4">
-     <spacer name="horizontalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>40</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLabel" name="label">
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Captura de Webcamm</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLabel" name="imgLabel">
-      <property name="minimumSize">
-       <size>
-        <width>505</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Box</enum>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QLabel" name="imgLabel_2">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Box</enum>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>img/profile.jpg</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <spacer name="horizontalSpacer_3">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>40</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="4" column="3">
-     <spacer name="verticalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="adicionarDialogButton">
-      <property name="text">
-       <string>Adicionar Individio</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1" rowspan="2">
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="2" column="3">
-     <widget class="QPushButton" name="pushButton">
-      <property name="text">
-       <string>Some Thing</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>658</x>
+      <y>11</y>
+      <width>45</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Perfil</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>11</y>
+      <width>198</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Captura de Webcamm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imgLabel">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>42</y>
+      <width>505</width>
+      <height>505</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>505</width>
+      <height>505</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>505</width>
+      <height>505</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="validarIndividuoButton">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>560</y>
+      <width>501</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Validar Identificação</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="novoIndividuoTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>360</y>
+      <width>299</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Nome Indivíduo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="identidadeLabel">
+    <property name="geometry">
+     <rect>
+      <x>664</x>
+      <y>65</y>
+      <width>291</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1036</width>
-     <height>21</height>
+     <width>1018</width>
+     <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuConfigura_es">
+    <property name="title">
+     <string>Configurações</string>
+    </property>
+    <addaction name="adicionarNovoIndividuoAction"/>
+    <addaction name="treinarIndividuosAction"/>
+   </widget>
+   <addaction name="menuConfigura_es"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="adicionarNovoIndividuoAction">
+   <property name="text">
+    <string>Novo Individuo</string>
+   </property>
+  </action>
+  <action name="treinarIndividuosAction">
+   <property name="text">
+    <string>Treinar </string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
